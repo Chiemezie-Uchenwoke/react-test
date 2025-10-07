@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme{
+  --color-white-shade: #f8f8f8;
+}
+
+body{
+  @apply bg-white-shade p-8
+}
