@@ -7,3 +7,15 @@
 body{
   @apply bg-white-shade p-8
 }
+
+.product{
+  @apply flex flex-col gap-8 bg-blue-500 text-white py-8 px-4 lg:px-6
+}
+
+.product-heading{
+  @apply capitalize font-bold text-4xl
+}
+
+.product-btn{
+  @apply py-3 px-8 bg-yellow-400 text-black font-semibold text-xl rounded-2xl cursor-pointer active:scale-95
+}
