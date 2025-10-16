@@ -16,7 +16,9 @@ const LoginPage = () => {
             <button 
                 className="bg-amber-400 py-2 px-8 cursor-pointer active:scale-95"
                 onClick={authenticateUser}
-            >Authenticate User</button>
+            >
+                {isAuthenticated ? "Logged In - Click to Log Out" : "Authenticate User"}
+            </button>
 
             {/* <Link to="/dashboard" className="underline">Go To Dashboard</Link> */}
 
