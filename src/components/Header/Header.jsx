@@ -6,6 +6,7 @@ const Header = () => {
             <Link to="/" className="text-3xl text-blue-600 font-bold">Home</Link>
             <Link to="/login" className="text-3xl text-blue-600 font-bold">Login</Link>
             <Link to="/dashboard" className="text-3xl text-blue-600 font-bold">Dashboard</Link>
+            <Link to="/prop-modal" className="text-3xl text-blue-600 font-bold">Cards</Link>
         </header>
     )
 }
