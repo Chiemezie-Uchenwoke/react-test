@@ -4,6 +4,7 @@ import LoginPage from "./pages/LoginPage";
 import DashboardPage from "./pages/DashboardPage";
 import AuthRoute from "./utils/AuthRoute";
 import PropsPage from "./pages/PropsPage"; 
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
 
@@ -18,6 +19,8 @@ function App() {
             <Route path="/dashboard" element={<DashboardPage />} />
           </Route>
       </Routes>
+
+      <ScrollToTop />
     </>
   )
 }
