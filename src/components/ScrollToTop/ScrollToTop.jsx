@@ -28,6 +28,7 @@ const ScrollToTop = () => {
             <button 
                 className="bg-blue-600 text-white fixed bottom-4 right-2 w-8 h-8 rounded-full shadow-lg active:scale-95 cursor-pointer"
                 onClick={scrollToTop}
+                aria-label="Scroll to top"
             >
                 ↑
             </button>
