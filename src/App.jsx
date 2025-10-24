@@ -5,6 +5,7 @@ import DashboardPage from "./pages/DashboardPage";
 import AuthRoute from "./utils/AuthRoute";
 import PropsPage from "./pages/PropsPage"; 
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import SpinnerPage from "./pages/SpinnerPage";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/prop-modal" element={<PropsPage />} />
+          <Route path="/spinner" element={<SpinnerPage />} />
 
           <Route element={<AuthRoute />}>
             <Route path="/dashboard" element={<DashboardPage />} />
