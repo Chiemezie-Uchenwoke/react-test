@@ -8,6 +8,7 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import SpinnerPage from "./pages/SpinnerPage";
 import Users from "./pages/Users";
 import ProductsPage from "./pages/ProductsPage";
+import CartPage from "./pages/CartPage";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/spinner" element={<SpinnerPage />} />
           <Route path="/users" element={<Users />} />
           <Route path="/products" element={<ProductsPage />} />
+          <Route path="/cart" element={<CartPage />} />
 
           <Route element={<AuthRoute />}>
             <Route path="/dashboard" element={<DashboardPage />} />
