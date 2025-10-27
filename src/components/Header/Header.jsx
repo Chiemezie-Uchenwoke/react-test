@@ -8,6 +8,8 @@ const Header = () => {
             <Link to="/dashboard" className="text-3xl text-blue-600 font-bold">Dashboard</Link>
             <Link to="/prop-modal" className="text-3xl text-blue-600 font-bold">Cards</Link>
             <Link to="/spinner" className="text-3xl text-blue-600 font-bold">Spinner</Link>
+            <Link to="/users" className="text-3xl text-blue-600 font-bold">Users</Link>
+            <Link to="/products" className="text-3xl text-blue-600 font-bold">Products</Link>
         </header>
     )
 }

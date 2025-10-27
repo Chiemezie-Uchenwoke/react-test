@@ -19,3 +19,7 @@ body{
 .product-btn{
   @apply py-3 px-8 bg-yellow-400 text-black font-semibold text-xl rounded-2xl cursor-pointer active:scale-95
 }
+
+.productBtn{
+  @apply cursor-pointer py-1 px-4 rounded-2xl hover:brightness-95
+}
