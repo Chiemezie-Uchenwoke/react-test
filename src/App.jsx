@@ -10,6 +10,7 @@ import Users from "./pages/Users";
 import ProductsPage from "./pages/ProductsPage";
 import CartPage from "./pages/CartPage";
 import ProductsListPage from "./pages/ProductsListPage";
+import ExpensePage from "./pages/ExpensePage";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/cart" element={<CartPage />} />
           <Route path="/products/list" element={<ProductsListPage />} />
+          <Route path="/expense" element={<ExpensePage />} />
 
           <Route element={<AuthRoute />}>
             <Route path="/dashboard" element={<DashboardPage />} />
