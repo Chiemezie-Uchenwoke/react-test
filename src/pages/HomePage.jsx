@@ -5,6 +5,7 @@ import Header from "../components/Header/Header";
 import DoughnutChart from "../components/DoughnutChart/DoughnutChart";
 import ShowCard from "../components/ShowCard/ShowCard";
 import Numbers from "../components/Numbers/Numbers";
+import ParentComp from "../components/LiftState/ParentComp";
 
 const HomePage = () => {
     return (
@@ -14,6 +15,7 @@ const HomePage = () => {
             <ProductCart />
             <DoughnutChart />
             <ShowSum />
+            <ParentComp />
             <ShowCard />
             <Numbers />
         </>
